@@ -1,0 +1,63 @@
+Bill Of Materials
+=================
+
+Source file: yuletronics.xml
+Date: 2016-10-12T02:40:48.058017
+
+Parts Missing Footprints
+------------------------
+
+
+Parts Missing Order Codes
+-------------------------
+P1     SWD_TC          agg:TC2030-NL
+R4     R               agg:0805
+R5     R               agg:0805
+R6     R               agg:0805
+R7     R               agg:0805
+R8     R               agg:0805
+R9     R               agg:0805
+R10    R               agg:0805
+R11    R               agg:0805
+
+Inconsistent Order Codes
+------------------------
+
+
+Vendor Specific BOMs
+--------------------
+  Farnell
+  ~~~~~~~
+2099241,4,4x LED 0805-LED
+1296592,1,1x MCP1700 SOT-23
+1201430,1,1x PWR_SWITCH SPDT_SWITCH
+9332391,3,3x 10k 0805
+2616849,1,1x 4µ7 2016M
+2320853,2,2x 1µ 0805
+2056809,1,1x BOOTLOAD MOM_SWITCH
+2099235,4,4x LED 0805-LED
+1568023,1,1x MICROUSB MICROUSB_MOLEX_475
+2469549,1,1x STM32F042F6P6 TSSOP-20
+1702632,1,1x BATT AAA_HOLDER
+1759265,2,2x 100n 0805
+2492362,1,1x TLV61225 SC-70-6
+2320851,3,3x 10µ 0805
+
+
+Assembly BOM
+------------
+2099241              4   LED             0805-LED        D1 D3 D5 D7
+1296592              1   MCP1700         SOT-23          IC2
+1201430              1   PWR_SWITCH      SPDT_SWITCH     SW2
+9332391              3   10k             0805            R1 R2 R3
+2616849              1   4µ7             2016M           L1
+2320853              2   1µ              0805            C5 C6
+2056809              1   BOOTLOAD        MOM_SWITCH      SW1
+2099235              4   LED             0805-LED        D2 D4 D6 D8
+1568023              1   MICROUSB        MICROUSB_MOLEX_47589-0001 J2
+2469549              1   STM32F042F6P6   TSSOP-20        IC1
+1702632              1   BATT            AAA_HOLDER      J1
+1759265              2   100n            0805            C2 C3
+2492362              1   TLV61225        SC-70-6         IC3
+2320851              3   10µ             0805            C1 C4 C7
+
