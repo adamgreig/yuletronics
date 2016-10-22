@@ -1,4 +1,4 @@
-# Yuletronics: Electronics Club Project Michalmas 2016
+# Yuletronics: Electronics Club Project Michaelmas 2016
 
 This repository contains the example Yuletronics project for Electronics Club. 
 You can either use git to clone it, or simply download it 
