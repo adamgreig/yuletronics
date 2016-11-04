@@ -24,4 +24,4 @@ LDSCRIPT = stm32f042f6p6.ld
 include libopencm3.target.mk
 
 dfu: $(BINARY).bin
-	dfu-util -a 0 -s 0x08000000 -D $(BINARY).bin
+	dfu-util -d '0483:df11' -a 0 -s 0x08000000 -D $(BINARY).bin
