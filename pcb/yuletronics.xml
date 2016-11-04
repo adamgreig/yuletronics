@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/adam/Projects/yuletronics/pcb/yuletronics.sch</source>
-    <date>Wed 12 Oct 2016 02:40:47 BST</date>
+    <date>Wed 02 Nov 2016 04:16:27 GMT</date>
     <tool>Eeschema 201609280951+7255~55~ubuntu14.04.1-</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -517,14 +517,11 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="switch">
-      <uri>/home/adam/Projects/yuletronics/pcb/libs/switch.lib</uri>
+    <library logical="tlv61225">
+      <uri>/home/adam/Projects/yuletronics/pcb/libs/tlv61225.lib</uri>
     </library>
-    <library logical="r">
-      <uri>/home/adam/Projects/yuletronics/pcb/libs/r.lib</uri>
-    </library>
-    <library logical="led">
-      <uri>/home/adam/Projects/yuletronics/pcb/libs/led.lib</uri>
+    <library logical="conn">
+      <uri>/home/adam/Projects/yuletronics/pcb/libs/conn.lib</uri>
     </library>
     <library logical="swd_tc">
       <uri>/home/adam/Projects/yuletronics/pcb/libs/swd_tc.lib</uri>
@@ -532,23 +529,26 @@
     <library logical="microusb">
       <uri>/home/adam/Projects/yuletronics/pcb/libs/microusb.lib</uri>
     </library>
-    <library logical="c">
-      <uri>/home/adam/Projects/yuletronics/pcb/libs/c.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>/home/adam/Projects/yuletronics/pcb/libs/conn.lib</uri>
-    </library>
-    <library logical="mcp1700">
-      <uri>/home/adam/Projects/yuletronics/pcb/libs/mcp1700.lib</uri>
+    <library logical="switch">
+      <uri>/home/adam/Projects/yuletronics/pcb/libs/switch.lib</uri>
     </library>
     <library logical="stm32f0xxfxpx">
       <uri>/home/adam/Projects/yuletronics/pcb/libs/stm32f0xxfxpx.lib</uri>
     </library>
+    <library logical="c">
+      <uri>/home/adam/Projects/yuletronics/pcb/libs/c.lib</uri>
+    </library>
     <library logical="l">
       <uri>/home/adam/Projects/yuletronics/pcb/libs/l.lib</uri>
     </library>
-    <library logical="tlv61225">
-      <uri>/home/adam/Projects/yuletronics/pcb/libs/tlv61225.lib</uri>
+    <library logical="led">
+      <uri>/home/adam/Projects/yuletronics/pcb/libs/led.lib</uri>
+    </library>
+    <library logical="r">
+      <uri>/home/adam/Projects/yuletronics/pcb/libs/r.lib</uri>
+    </library>
+    <library logical="mcp1700">
+      <uri>/home/adam/Projects/yuletronics/pcb/libs/mcp1700.lib</uri>
     </library>
   </libraries>
   <nets>
