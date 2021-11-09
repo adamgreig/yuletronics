@@ -5,7 +5,7 @@ You can either use git to clone it, or simply download it
 [here](https://github.com/adamgreig/yuletronics/archive/master.zip).
 
 You'll need KiCAD to open and edit the PCB: [download it 
-here](http://kicad-pcb.org/). If you can easily get a nightly build, they have 
+here](http://kicad.org/). If you can easily get a nightly build, they have 
 a few nice new features.
 
 ![3d render](pcb/yuletronics.png)
